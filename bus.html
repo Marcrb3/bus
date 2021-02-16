@@ -1,0 +1,250 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+a{
+    text-decoration:none;
+}
+
+        .dropbtn {
+
+            display: block;
+            color: white;
+            padding: 20px;
+            font-size: 18px;
+            border: 1px solid black;
+            border-radius: 12px;
+            font-weight: bold;
+            height: 100px;
+            width: 150px;
+            margin: 40px;
+            text-align: center;
+            padding: 18px;
+            margin-left: 40px;
+            margin-right: 40px;
+
+        }
+
+
+        button {
+            vertical-align: top;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            left: 80px;
+            top: 120px;
+            background-color: black;
+            min-width: 270px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color:white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #789758;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropbtn {
+            color: #f1f1f1;
+            ;
+        }
+
+        .dropbtn:hover,
+        .dropbtn:focus {
+            opacity: 0.7;
+            cursor: pointer;
+            color: black;
+            border: 1px solid black;
+        }
+
+        .dropdown-submenu {
+            position: relative;
+        }
+
+        .dropdown-submenu>.dropdown-menu {
+            top: 0;
+            left: 100%;
+            margin-top: 0px;
+            margin-left: 0px;
+            -webkit-border-radius: 0 6px 6px 6px;
+            -moz-border-radius: 0 6px 6px;
+            border-radius: 0 6px 6px 6px;
+            background-color: #f1f1f1;
+            width: 300px;
+
+        }
+
+        .dropdown-submenu:hover>.dropdown-menu {
+            display: block;
+        }
+
+        .dropdown-submenu>a:after {
+            display: block;
+            content: " ";
+            float: right;
+            width: 0;
+            height: 0;
+            border-color: transparent;
+            border-style: solid;
+            border-width: 5px 0 5px 5px;
+            border-left-color: #ccc;
+            margin-top: 5px;
+            margin-right: -10px;
+        }
+
+        .dropdown-submenu:hover>a:after {
+            border-left-color: #ffffff;
+        }
+
+        .dropdown-submenu.pull-left {
+            float: none;
+        }
+
+        .dropdown-submenu.pull-left>.dropdown-menu {
+            left: -100%;
+            margin-left: 10px;
+            -webkit-border-radius: 6px 0 6px 6px;
+            -moz-border-radius: 6px 0 6px 6px;
+            border-radius: 6px 0 6px 6px;
+        }
+        
+
+        button {
+            width: auto;
+            /* ie */
+            overflow: visible;
+            /* ie */
+            padding: 4px 8px 2px 6px;
+            /* ie */
+        }
+
+        button[type] {
+            padding: 4px 8px 4px 6px;
+            /* firefox */
+        }
+
+        .logo{
+            text-align:center;
+        }
+
+        .titol{
+            color: white;
+            font-size: 28px;
+            margin: 10px;
+            padding-top: 10px;
+        }
+     
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Verdana, sans-serif;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body style="font-family: Verdana, sans-serif;">
+
+
+    <div class=container style="text-align: center;">
+
+        <p class="titol">FEINA - CASA</p>
+
+        <div class="dropdown">
+            <a href= "https://www.tmb.cat/es/barcelona/autobuses/-/lineabus/24/parada/1391" target="_blank">
+            <button class="dropbtn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false" style="background-color: #91280e; padding: 16px;">24</button>
+            </a>
+        </div>
+
+        <div class="dropdown">
+            <a href= "https://www.tmb.cat/es/barcelona/autobuses/-/lineabus/114/parada/2476" target="_blank">
+            <button class="dropbtn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false" style="background-color: #c73f3f; padding: 16px;">114</button>
+            </a>
+        </div>
+
+        <div class="dropdown">
+            <a href= "https://www.tmb.cat/es/barcelona/autobuses/-/lineabus/V19/parada/213" target="_blank">
+            <button class="dropbtn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false" style="background-color: #8f2522; padding: 16px;">V19</button>
+            </a>
+        </div>
+
+        <div class="dropdown">
+            <a href= "https://www.tmb.cat/es/barcelona/autobuses/-/lineabus/39/parada/146" target="_blank">
+            <button class="dropbtn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false" style="background-color: #9c4f4d; padding: 16px;">39</button>
+            </a>
+        </div>
+
+
+
+    </div>
+
+    <div class=container style="text-align: center;">
+        <br><br>
+        <p class="titol">CASA - FEINA</p>
+
+        <div class="dropdown">
+            <a href= "https://www.tmb.cat/es/barcelona/autobuses/-/lineabus/24/parada/1391" target="_blank">
+            <button class="dropbtn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false" style="background-color: #91280e; padding: 16px;">24</button>
+            </a>
+        </div>
+
+        <div class="dropdown">
+            <a href= "https://www.tmb.cat/ca/barcelona/autobusos/-/lineabus/114/parada/1316" target="_blank">
+            <button class="dropbtn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false" style="background-color: #c73f3f; padding: 16px;">114</button>
+            </a>
+        </div>
+
+        <div class="dropdown">
+            <a href= "https://www.tmb.cat/ca/barcelona/autobusos/-/lineabus/V19/parada/897" target="_blank">
+            <button class="dropbtn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false" style="background-color: #8f2522; padding: 16px;">V19</button>
+            </a>
+        </div>
+
+        <div class="dropdown">
+            <a href= "https://www.tmb.cat/ca/barcelona/autobusos/-/lineabus/39/parada/1316" target="_blank">
+            <button class="dropbtn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false" style="background-color: #9c4f4d; padding: 16px;">39</button>
+            </a>
+        </div>
+
+
+
+    </div>
+    
+</body>
+
+</html>
+
+
+ 
+
+ 
